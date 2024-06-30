@@ -1,0 +1,10 @@
+#
+#Sat Jun 29 13:05:47 UTC 2024
+URL=https\://services.odata.org
+Name=Northwind
+HTML5.DynamicDestination=true
+ProxyType=Internet
+Type=HTTP
+WebIDEEnabled=true
+WebIDEUsage=odata_gen
+Authentication=NoAuthentication
