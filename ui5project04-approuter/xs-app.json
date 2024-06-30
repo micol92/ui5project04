@@ -1,0 +1,19 @@
+{
+  "welcomeFile": "ui5project04",
+  "authenticationMethod": "route",
+  "sessionTimeout": 30,
+  "routes": [
+    {
+      "source": "^/V3/(.*)$",
+      "target": "/V3/$1",
+      "destination": "Northwind",
+      "csrfProtection": true,
+      "authenticationType": "none"
+    },
+    {
+      "source": "^/user-api(.*)",
+      "target": "$1",
+      "service": "sap-approuter-userapi"
+   }    
+  ]
+}
